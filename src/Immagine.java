@@ -27,7 +27,7 @@ public class Immagine extends ElementoMultimediale {
 
 	@Override
 	public String toString() {
-		return "Titolo: " + titolo + ", Formato: Immagine";
+		return "Titolo: " + this.titolo + ", Formato: Immagine";
 	}
 
 }
