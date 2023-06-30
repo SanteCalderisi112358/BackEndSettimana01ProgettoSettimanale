@@ -11,6 +11,7 @@ public class Immagine extends ElementoMultimediale {
 			this.luminosita = luminosita;
 		} else {
 			System.out.println("La luminosità deve essere un valore positivo.");
+			this.luminosita = 5;
 		}
 
 	}

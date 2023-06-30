@@ -37,6 +37,7 @@ public class Video extends ElementoMultimediale implements Riproducibile {
 			this.volume = volume;
 		} else {
 			System.out.println("Il volume deve essere un valore positivo.");
+			this.volume = 5;
 		}
 	}
 
@@ -45,6 +46,7 @@ public class Video extends ElementoMultimediale implements Riproducibile {
 			this.luminosita = luminosita;
 		} else {
 			System.out.println("La luminosità deve essere un valore positivo.");
+			this.luminosita = 5;
 		}
 
 	}

@@ -31,6 +31,7 @@ public class RegistrazioneAudio extends ElementoMultimediale implements Riproduc
 			this.volume = volumeAlzato;
 		} else {
 			System.out.println("Il volume deve essere un valore positivo.");
+			this.volume = 5;
 		}
 	}
 
