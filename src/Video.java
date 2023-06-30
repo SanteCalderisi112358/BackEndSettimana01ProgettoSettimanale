@@ -53,7 +53,7 @@ public class Video extends ElementoMultimediale implements Riproducibile {
 
 	@Override
 	public String toString() {
-		return "Titolo:" + this.titolo + ", Durata:" + this.durata + ", minuti, Formato: Video";
+		return "Titolo:" + this.titolo + ", Durata:" + this.durata + " minuti, Formato: Video";
 	}
 
 }

@@ -50,8 +50,9 @@ public class ProgettoSettimanale {
 			}
 			System.out.println("Vuoi eseguire un altro elemento multimediale? (sì/no)");
 			String sceltaContinua = input.next();
-			if (sceltaContinua.equals("no")) {
+			if (sceltaContinua.equalsIgnoreCase("no")) {
 				continua = false;
+				System.out.println("Grazie per aver utilizzato il nostro servizio");
 			}
 		} while (continua);
 		input.close();
